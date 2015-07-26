@@ -1,5 +1,5 @@
 library(quantmod)
-#run get DJIA data to get variables before running this script.
+#run pull DJIA constituents to get variables before running this script.
 
 #I will be ranking returns by row
 strat1=function(returns,signals,numberofstocks){ #returns matrix, signals matrix, number of stocks to buy on each day
