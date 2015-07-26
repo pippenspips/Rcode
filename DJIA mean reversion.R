@@ -1,4 +1,5 @@
 library(quantmod)
+library(PerformanceAnalytics)
 #run pull DJIA constituents to get variables before running this script.
 
 #I will be ranking returns by row
