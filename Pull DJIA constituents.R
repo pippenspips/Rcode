@@ -1,4 +1,3 @@
-'''R
 library(quantmod)
 DJIA.constituents=read.csv('~/DJIA constituents.csv',stringsAsFactors = FALSE) #read in csv
 names(DJIA.constituents)=as.Date(substr(names(DJIA.constituents),start=2,stop=11),format='%Y.%m.%d') #subset output... it was imported funky from excel
@@ -62,4 +61,4 @@ returnsmatrix3=returnsmatrix3[-1,]
 signalsmatrix1=signalsmatrix1[-1,]
 signalsmatrix2=signalsmatrix2[-1,]
 signalsmatrix3=signalsmatrix3[-1,]
-'''
+
